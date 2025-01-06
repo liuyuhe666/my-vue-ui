@@ -1,10 +1,12 @@
 import type { App } from 'vue'
-import EasyButton from './components/EasyButton.vue'
+import BackToTop from './components/BackToTop.vue'
 
+import EasyButton from './components/EasyButton.vue'
 import './style/index.scss'
 
 const components = [
   EasyButton,
+  BackToTop,
 ]
 
 export function install(app: App): void {
@@ -20,5 +22,6 @@ export default {
 }
 
 export {
+  BackToTop,
   EasyButton,
 }

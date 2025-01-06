@@ -7,7 +7,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <button class="easy-button">
+  <button class="easy-button" type="button">
     <slot />
   </button>
 </template>
