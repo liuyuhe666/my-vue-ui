@@ -1,4 +1,5 @@
 <template>
+  <GitHubCorner blank />
   <BackToTop />
   <header>
     <div class="header-container">
